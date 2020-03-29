@@ -31,3 +31,6 @@ http://dl-cdn.coolapkmarket.com/down/apk_upload/2020/0321/app-release-257979-o_1
 
 </com.hxl.course.widget.viewgroup.MulitViewGroup>
 ```
+### 个人公众号
+![](https://raw.githubusercontent.com/houxinlin/schedule/master/schedule/app/src/main/res/drawable/qr.webp)
+
