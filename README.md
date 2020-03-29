@@ -1,8 +1,12 @@
-# schedule
+# 小安课表
 一款精美Android课程表。实现课程增加、删除、修改，增加计划等功能
 
-### 效果图
+### APP体验地址
+(已上架酷安，名称为小安课表)
 
+http://dl-cdn.coolapkmarket.com/down/apk_upload/2020/0321/app-release-257979-o_1e3tvolos1m881jfkmv1qm114v42n-uid-1411991.apk?_upt=ca3cde241585488207
+
+### 效果图
 ![](http://image.coolapk.com/apk_image/2020/0321/15/_20200321152403-257979-o_1e3tvkucu1pn21jjt1t0nk6fts81u-uid-1411991@1080x2248.jpg.t.jpg)
 
 ![](http://image.coolapk.com/apk_image/2020/0321/15/_20200321152407-257979-o_1e3tvkucuf9qkiaemvs2ibd01v-uid-1411991@1080x2248.jpg.t.jpg)
