@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+
+    tools:context=".activity.PlanActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+                android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="添加计划"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:onClick="onSaveClick"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.hxl.course.ui.widget.ExNumberPicker
+            android:id="@+id/np_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></com.hxl.course.ui.widget.ExNumberPicker>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text=":"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"></TextView>
+
+        <com.hxl.course.ui.widget.ExNumberPicker
+            android:id="@+id/np_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:solidColor="#000000" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ed_describe"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/shape_plan_editview"
+        android:minHeight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+</LinearLayout>

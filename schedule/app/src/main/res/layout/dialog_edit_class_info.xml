@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="10dp"
+    tools:context=".EditClassInfoActivity">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="35dp">
+    <TextView
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="课程名称"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></TextView>
+    <EditText
+        android:id="@+id/et_name"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></EditText>
+</LinearLayout>
+<RelativeLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+
+        android:textColor="#BD1A1A"
+        android:layout_alignParentLeft="true"
+        android:textSize="13sp"
+        android:background="@drawable/shape_button"
+        android:text="删除"
+        android:id="@+id/del"
+        android:layout_width="40dp"
+        android:layout_height="28dp"></Button>
+    <Button
+        android:textColor="#000000"
+        android:layout_toLeftOf="@+id/ok"
+        android:textSize="13sp"
+        android:background="@drawable/shape_button"
+        android:text="取消"
+        android:id="@+id/cancel"
+        android:layout_width="40dp"
+        android:layout_height="28dp"></Button>
+    <Button
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"
+        android:textSize="13sp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape_button"
+        android:text="确定"
+        android:id="@+id/ok"
+        android:layout_width="40dp"
+        android:layout_height="28dp"></Button>
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/classScheduleCardTopWeekHeight"></Space>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.hxl.course.widget.viewgroup.NodeViewGroup
+            android:background="@color/classScheduleCardTopAndLefColor"
+            android:orientation="vertical"
+            android:id="@+id/ll_node"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </com.hxl.course.widget.viewgroup.NodeViewGroup>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/ll_class_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.hxl.course.widget.TableView
+                android:id="@+id/tabview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.hxl.course.widget.TableView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

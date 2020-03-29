@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hxl.course.widget.viewgroup.MulitViewGroup
+            android:id="@+id/mulit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               >
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/bk2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+                <com.hxl.course.widget.ClassScheduleCard
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true">
+
+
+                </com.hxl.course.widget.ClassScheduleCard>
+
+            </RelativeLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/main_left"></include>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/main_right"></include>
+            </LinearLayout>
+
+            <com.hxl.course.widget.viewgroup.MulitSubViewLayout
+                android:paddingTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:text="我的计划"
+                    android:textColor="#FFFFFF"
+
+                    android:textSize="28sp"></TextView>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="21dp"
+                    android:layout_marginBottom="21dp"
+                    android:clickable="true"
+                    android:onClick="onAddPlanActivityClick"
+                    app:backgroundTint="@color/floatingActionButton"
+
+                    app:srcCompat="@drawable/ic_add" />
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/plan_recycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/title"></androidx.recyclerview.widget.RecyclerView>
+            </com.hxl.course.widget.viewgroup.MulitSubViewLayout>
+        </com.hxl.course.widget.viewgroup.MulitViewGroup>
+    </RelativeLayout>
+
+
+</RelativeLayout>

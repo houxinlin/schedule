@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlideView">
+        <attr name="selectColor" format="color"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="maxValue" format="integer"></attr>
+    </declare-styleable>
+</resources>

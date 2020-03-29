@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="classAddStateColor">#8CD8D8D8</color>
+
+    <color name="classScheduleCardTopAndLefColor">#29FFFFFF</color>
+    <color name="randColor1">#80F44336</color>
+    <color name="randColor2">#80673ab7</color>
+    <color name="randColor3">#8003a9f4</color>
+    <color name="randColor4">#80ff5722</color>
+    <color name="randColor5">#802196f3</color>
+    <color name="randColor6">#809C27B0</color>
+
+
+    <color name="slideViewDefaultColor">#F5F5F5</color>
+    <color name="floatingActionButton">#F5F2F2</color>
+</resources>
